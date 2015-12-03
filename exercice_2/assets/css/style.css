@@ -1,0 +1,14 @@
+h2{
+    display:inline-block;
+}
+
+
+[class*="col-"] {
+    margin-left: 0px;
+    margin-right: auto;
+    padding: auto;
+}
+
+.right{
+    float: right;
+}
