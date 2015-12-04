@@ -1,17 +1,26 @@
+html, body {
+    background-color: black;
+}
+
+
 h3{
     display:inline-block;
     line-height:50px;
+    color: white;
 }
 
+.container-fluid
+{
+    margin-left:-15px;
+    margin-right:0px;
+}
 
 [class*="col-"] {
     margin: 0px;
-    padding: 1px;
+    padding: 0px;
+    position: relative;
 }
 
-.col-lg-12 {
-	
-}
 
 .right{
     float: right;
@@ -19,11 +28,108 @@ h3{
     vertical-align: middle;
 }
 
-main img{
-    width:100%;
-}
 
 .row {
-    margin: 0px;  
-
+    margin-right: 0px;  
+    margin-left: 0px;
+    position: relative;
 }
+
+header {
+    background-color: #33ccff;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+.banniere {
+    position: absolute;
+    bottom: 0;
+    height:40px;
+    width: 98.9%;
+    vertical-align: middle;
+    background-color: grey;
+    color: white;
+    padding: 13px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.leaderboard {
+    height: 385px;
+    display: flex;
+    background-color: white;    
+}
+
+.entertainment {
+
+    display: flex;
+    height: 260px;
+    background-color: #ff6666;
+}
+
+.sport {
+    display: flex;
+    height: 260px;
+    background-color: #9933ff;
+}
+
+.food {
+    display: flex;
+    height: 260px;
+    background-color: #ccffff;
+}
+
+.knowledge {
+    display: flex;
+    height: 260px;
+    background-color: #ffff66;
+}
+
+.geography {
+    display: flex;
+    height: 385px;
+    background-color: #ff6666;
+}
+
+.history {
+    display: flex;
+    height: 210px;
+    background-color: #00ffff;    
+}
+
+.science {
+    display: flex;
+    height: 210px;
+    background-color: #ffff66;        
+}
+
+.movies {
+    display: flex;
+    height: 210px;
+    background-color: #9933ff;        
+}
+
+.music {
+    display: flex;
+    height: 210px;
+    background-color: #00ffff;        
+}
+
+.profile {
+    display: flex;
+    height: 210px;
+    background-color: #ffffcc;        
+}
+
+.image {
+    display: block;
+    margin: auto;
+}
+
+p {
+    padding: 3px;
+    margin: 3px;
+}
+
