@@ -1,14 +1,29 @@
-h2{
+h3{
     display:inline-block;
+    line-height:50px;
 }
 
 
 [class*="col-"] {
-    margin-left: 0px;
-    margin-right: auto;
-    padding: auto;
+    margin: 0px;
+    padding: 1px;
+}
+
+.col-lg-12 {
+	
 }
 
 .right{
     float: right;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+main img{
+    width:100%;
+}
+
+.row {
+    margin: 0px;  
+
 }
