@@ -1,5 +1,16 @@
 body {
-    background-color: black;
+    background-color: purple;
+}
+
+
+
+header {
+    background-color: #33ccff;
+	margin-bottom: 6px;
+}
+
+header img {
+    margin-right: 10px;
 }
 
 h3{
@@ -8,118 +19,40 @@ h3{
     color: white;
 }
 
-.container-fluid
-{
-    margin-left:-15px;
-    margin-right:0px;
-}
+
 
 [class*="col-"] {
     margin: 0px;
     padding: 0px;
-    position: relative;
 }
-
 
 .right{
     float: right;
-    margin-right: 10px;
+    padding-right: 10px;
     vertical-align: middle;
 }
 
-
 .row {
-    margin-right: 0px;  
-    margin-left: 0px;
-    position: relative;
+    margin: 0px;  
 }
 
-header {
-    background-color: #33ccff;
+.little {
+	display: flex;
+    height: 211px;
+	margin: 2px;
 }
 
-header img {
-    margin-right: 10px;
+.medium {
+	display: flex;
+    height: 260px;
+	margin: 2px;
 }
 
-.banniere {
-    position: absolute;
-    bottom: 0;
-    height:40px;
-    width: 98.9%;
-    background-color: grey;
-    color: white;
-    padding: 13px;
-    margin-left: 3px;
-    margin-right: 3px;
-    font-weight: bold;
-}
-
-.leaderboard {
+.large {
+	display: flex;
     height: 385px;
-    display: flex;
-    background-color: white;    
-}
-
-.entertainment {
-
-    display: flex;
-    height: 260px;
-    background-color: #ff6666;
-}
-
-.sport {
-    display: flex;
-    height: 260px;
-    background-color: #9933ff;
-}
-
-.food {
-    display: flex;
-    height: 260px;
-    background-color: #ccffff;
-}
-
-.knowledge {
-    display: flex;
-    height: 260px;
-    background-color: #ffff66;
-}
-
-.geography {
-    display: flex;
-    height: 385px;
-    background-color: #ff6666;
-}
-
-.history {
-    display: flex;
-    height: 210px;
-    background-color: #00ffff;    
-}
-
-.science {
-    display: flex;
-    height: 210px;
-    background-color: #ffff66;        
-}
-
-.movies {
-    display: flex;
-    height: 210px;
-    background-color: #9933ff;        
-}
-
-.music {
-    display: flex;
-    height: 210px;
-    background-color: #00ffff;        
-}
-
-.profile {
-    display: flex;
-    height: 210px;
-    background-color: #ffffcc;        
+	margin: 2px;
+	margin-right:6px;
 }
 
 .image {
@@ -127,9 +60,14 @@ header img {
     margin: auto;
 }
 
-p {
-    padding: 3px;
-    margin: 3px;
+.banniere {
+    position: absolute;
+    bottom: 6;
+    height:40px;
+    width: 98.5%;
+    color: white;
+	margin: 2px;
+    font-weight: bold;
 }
 
 .arrow_right {
@@ -137,4 +75,94 @@ p {
     position: absolute;
     right:10px;
     bottom:4px;
+}
+
+
+
+.leaderboard {
+    background-color: #ffffcc;
+}
+
+.lea {
+	background-color: grey;
+}
+
+.entertainment {
+    background-color: #ff6666;
+}
+
+.ent {
+	background-color: #ff3333;
+}
+
+.sport {
+    background-color: #b266ff;
+}
+
+.spo {
+	background-color: #8b1aff;
+}
+
+.food {
+    background-color: #ccffff;
+}
+
+.foo {
+	background-color: #00e5e6;
+}
+
+.knowledge {
+    background-color: #ffff66;
+}
+
+.kno {
+	background-color: #e5e600;
+}
+
+.geography {
+    background-color: #ff6666;
+}
+
+.geo {
+	background-color: #ff3333;
+}
+
+.history {
+    background-color: #66ffff;    
+}
+
+.his {
+	background-color: #3384ff;
+}
+
+.science {
+    background-color: #ffff66;        
+}
+
+.sci {
+	background-color: #e5e600;
+}
+
+.movies {
+    background-color: #b266ff;        
+}
+
+.mov {
+	background-color: #8b1aff;
+}
+
+.music {
+    background-color: #66ffff;        
+}
+
+.mus {
+	background-color: #3384ff;
+}
+
+.profile {
+    background-color: #ffffcc;        
+}
+
+.pro {
+	background-color: grey;
 }
