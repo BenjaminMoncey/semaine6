@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #33ccff;
-	margin-bottom: 6px;
+	margin-bottom: 1px;
 }
 
 header img {
@@ -19,40 +19,38 @@ h3{
     color: white;
 }
 
-
-
-[class*="col-"] {
-    margin: 0px;
-    padding: 0px;
-}
-
 .right{
     float: right;
     padding-right: 10px;
     vertical-align: middle;
 }
 
+
+
+[class*="col-"] {
+	margin: 0px;
+    padding: 0px;
+	border:2px solid #333333;
+}
+
 .row {
-    margin: 0px;  
+    margin-left: -2px;
+	margin-right: -2px;	
 }
 
 .little {
 	display: flex;
-    height: 211px;
-	margin: 2px;
+    height: 214px;
 }
 
 .medium {
 	display: flex;
     height: 260px;
-	margin: 2px;
 }
 
 .large {
 	display: flex;
     height: 385px;
-	margin: 2px;
-	margin-right:6px;
 }
 
 .image {
@@ -62,12 +60,19 @@ h3{
 
 .banniere {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
+	left: 0px;
+	margin: 0px;
     height:40px;
-    width: 98.5%;
+    width: 100%;
     color: white;
-	margin: 2px;
     font-weight: bold;
+}
+
+.left {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
 }
 
 .arrow_right {
