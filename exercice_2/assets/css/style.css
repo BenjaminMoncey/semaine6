@@ -1,13 +1,15 @@
+
 body {
-    background-color: #333333;
+    background-color: #3f4042;
     overflow-x: hidden;
 }
 
 
-
+/*header*/
 header {
     background-color: #33ccff;
-	margin-bottom: 1px;
+	margin-bottom: 5px;
+	border: 3px solid #3f4042;
 }
 
 header img {
@@ -27,31 +29,24 @@ h3{
 }
 
 
-
-[class*="col-"] {
-	margin: 0px;
-    padding: 0px;
-	border:2px solid #333333;
-}
-
-.row {
-    margin-left: -2px;
-	margin-right: -2px;	
-}
+/*main*/
 
 .little {
 	display: flex;
-    height: 214px;
+    height: 220px;
+	border: 3px solid #3f4042;
 }
 
 .medium {
 	display: flex;
-    height: 260px;
+    height: 270px;
+	border: 3px solid #3f4042;
 }
 
 .large {
 	display: flex;
-    height: 385px;
+    height: 390px;
+	border: 3px solid #3f4042;
 }
 
 .image {
@@ -63,17 +58,17 @@ h3{
     position: absolute;
     bottom: 0px;
 	left: 0px;
-	margin: 0px;
     height:40px;
-    width: 100%;
+	width: 100%;
     color: white;
     font-weight: bold;
 }
 
 .left {
     position: absolute;
-    bottom: 10px;
-    left: 5px;
+    float:left;
+    height: 40px;
+    top: 10px;
 }
 
 .arrow_right {
@@ -84,7 +79,7 @@ h3{
 }
 
 
-
+/*couleurs*/
 .leaderboard {
     background-color: #ffffcc;
 }
