@@ -53,25 +53,15 @@ main {
 	display: inline-block;
 }
 
-.image_visible {
-	margin-top: 20%;
-	margin-left:30%;
-    height: 100px;
-	display: inline-block;
-}
-
-.image_large_visible {
-	margin-top: 25%;
-	margin-left: 30%;
-    height: 200px;
-	display: inline-block;
-}
 
 .image_large {
     margin: auto;
     height: 200px;
 	display: inline-block;
 }
+
+
+/*bannière*/
 
 .banniere {
     position: absolute;
@@ -81,6 +71,7 @@ main {
 	width: 100%;
     color: white;
 	font-weight: bold;
+	padding-left: 10px;
 }
 
 .left {
@@ -98,6 +89,3 @@ main {
 	height: 30px;
 }
 
-[class*="visible-"]{
-    vertical-align: middle;
-}

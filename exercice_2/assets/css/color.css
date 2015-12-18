@@ -4,9 +4,11 @@
 
 .grey {
 	background-color: grey;
-
 }
 
+.text_dark_grey {
+	color: #3f4042;
+}
 
 
 .salmon {
